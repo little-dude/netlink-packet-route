@@ -82,7 +82,6 @@ impl<'a, T: AsRef<[u8]> + ?Sized> RouteNextHopBuffer<&'a T> {
 }
 
 #[derive(Debug, Clone, Eq, PartialEq, Default)]
-#[non_exhaustive]
 pub struct RouteNextHop {
     /// Next-hop flags
     pub flags: RouteNextHopFlags,
